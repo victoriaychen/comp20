@@ -9,9 +9,9 @@
     <form>
       Enter a genre:
       <select name="genres" id="genres">
-        <option value="Alternative">Alternative</option>
-        <option value="Rock">Rock</option>
-        <option value="Pop">Pop</option>
+        <option value="Pop">Alternative</option>
+        <option value="R&B">Rock</option>
+        <option value="Soul">Pop</option>
       </select>
       <input type="button" value="filter" onclick="filter()" />
     </form>
@@ -40,7 +40,7 @@
       };
       $(document).ready(() => {
         $.get(
-          "https://zxue03.github.io/Comp20/jsonList/jsonList.json",
+          "https://victoriaychen.github.io/Comp20/jsonList/jsonList.json",
           (data) => {
             songList = data;
             $("#result").append(
