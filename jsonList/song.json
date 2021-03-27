@@ -6,10 +6,10 @@
     "year": "2003"
   },
   {
-    "artist": "Muse",
-    "title": "United States of Eurasia",
-    "genre": "Alternative",
-    "year": "2009"
+    "artist": "Ruel",
+    "title": "Painkiller",
+    "genre": "Pop",
+    "year": "2017"
   },
   {
     "artist": "My Chemical Romance",
@@ -54,9 +54,9 @@
     "year": "1989"
   },
   {
-    "artist": "Guns N' Roses",
-    "title": "Don't Cry",
-    "genre": "Rock",
-    "year": "1991"
+     "artist": "Coldplay",
+     "title": "Fix You",
+     "genre": "Pop",
+     "year": "2005"
   }
 ]
