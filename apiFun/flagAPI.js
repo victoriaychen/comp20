@@ -1,7 +1,7 @@
 const input = document.getElementById("countryname");
 input.addEventListener("keyup", findFlag);
 
-async function findCapital(event) {
+async function findFlag(event) {
   const countryname = event.target.value;
   const URL = `https://restcountries.eu/rest/v2/name/${countryname}?fullText=true`;
   console.log(URL);
