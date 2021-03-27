@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSON set list</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -18,7 +20,6 @@
         <input type="button" value="filter" onclick="filter()" />
     </form>
     <div id="result"></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         var songList = null;
         var filter = () => {
@@ -44,6 +45,7 @@
             $.get(
                 "https://victoriaychen.github.io/comp20/jsonList/jsonList.json",
                 // "https://zxue03.github.io/Comp20/jsonList/jsonList.json",
+                // "jsonList.json",
                 (data) => {
                     songList = data;
                     $("#result").append(
