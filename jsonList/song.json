@@ -30,33 +30,30 @@
     "year": "2019"
   },
   {
-    "artist": "Greenday",
-    "title": "Wake Me up When September Ends",
-    "genre": "Alternative",
-    "year": "2004"
-  },
-  {
-    "artist": "Pink Floyd",
-    "title": "Comfortably Numb",
-    "genre": "Alternative",
-    "year": "1980"
-  },
-  {
-    "artist": "Oasis",
-    "title": "Don't Look Back in Anger",
-    "genre": "Alternative",
-    "year": "1995"
-  },
-  {
-    "artist": "X Japan",
-    "title": "Endless Rain",
-    "genre": "Rock",
-    "year": "1989"
-  },
-  {
-     "artist": "Coldplay",
-     "title": "Fix You",
+     "artist": "LAUV",
+     "title": "Feelings",
      "genre": "Pop",
-     "year": "2005"
+     "year": "2018"
+  },
+  {
+     "artist": "Halsey",
+     "title": "Without me",
+     "genre": "Pop",
+     "year": "2020"
+  },
+  {
+     "artist": "Free National",
+     "title": "Beauty & Essex",
+     "genre": "Soul",
+     "year": "2019"
+  },
+  {
+     "artist": "Taylor Swift",
+     "title": "Lover",
+     "genre": "Pop",
+     "year": "2019"
+  },
+  {
+     
   }
 ]
