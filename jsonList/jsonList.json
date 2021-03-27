@@ -1,5 +1,4 @@
-[
-    {
+[{
         "title": "If I ain't got you",
         "artist": "Alicia Keys",
         "genre": "R&B",
@@ -54,9 +53,9 @@
         "release": "2020"
     },
     {
-    "artist": "Coldplay",
-    "title": "Fix You",
-    "genre": "Pop",
-    "year": "2005"
-  },
+        "artist": "Coldplay",
+        "title": "Fix You",
+        "genre": "Pop",
+        "year": "2005"
+    },
 ]
