@@ -1,5 +1,5 @@
 const input = document.getElementById("countryname");
-input.addEventListener("keyup", findCapital);
+input.addEventListener("keyup", findFlag);
 
 async function findCapital(event) {
   const countryname = event.target.value;
@@ -10,10 +10,8 @@ async function findCapital(event) {
     const countryData = await response.json();
     console.log("Data: ", countryData);
 
-    const result = document.getElementById("capital");
+    const result = document.getElementById("flag");
     result.innerHTML = `
-        <div>${countryData[0].capital}</div>
-        <br>
         <img src=${countryData[0].flag} style="width: 30%; height: 30%">
       `;
 }
