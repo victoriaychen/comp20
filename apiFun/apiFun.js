@@ -1,26 +1,19 @@
-const countryInput = document.getElementById("countryname");
-countryInput.addEventListener("keyup", searchForCountry);
+const input = document.getElementById("countryname");
+input.addEventListener("keyup", findCapital);
 
-async function searchForCountry(event) {
-  event.preventDefault();
-
+async function findCapital(event) {
   const countryname = event.target.value;
-
   const URL = `https://restcountries.eu/rest/v2/name/${countryname}?fullText=true`;
   console.log(URL);
 
-  try {
     const response = await fetch(URL);
     const countryData = await response.json();
     console.log("Data: ", countryData);
 
-    const result = document.getElementById("result");
+    const result = document.getElementById("capital");
     result.innerHTML = `
         <div>${countryData[0].capital}</div>
         <br>
-        <img src=${countryData[0].flag} style="width: 20%; height: 20%">
+        <img src=${countryData[0].flag} style="width: 30%; height: 30%">
       `;
-  } catch (err) {
-    console.log("Aww...", err);
-  }
 }
