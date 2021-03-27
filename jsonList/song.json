@@ -48,12 +48,15 @@
      "year": "2019"
   },
   {
+     "artist": "Coldplay",
+     "title": "Fix You",
+     "genre": "Pop",
+     "year": "2005"
+  },
+  {
      "artist": "Taylor Swift",
      "title": "Lover",
      "genre": "Pop",
      "year": "2019"
-  },
-  {
-     
   }
 ]
