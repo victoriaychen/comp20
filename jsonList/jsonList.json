@@ -1,57 +1,57 @@
 [
     {
+        "artist": "Alicia Keys",
         "title": "If I ain't got you",
-        "artist": "Alicia Keys",
         "genre": "R&B",
-        "release": "2003"
+        "year": "2003"
     },
     {
-        "title": "Painkiller",
         "artist": "Ruel",
+        "title": "Painkiller",
         "genre": "Pop",
-        "release": "2017"
+        "year": "2017"
     },
     {
-        "title": "Beauty & Essex",
         "artist": "Free National",
+        "title": "Beauty & Essex",
         "genre": "Soul",
-        "release": "2019"
+        "year": "2019"
     },
     {
-        "title": "Lover",
         "artist": "Taylor Swift",
+        "title": "Lover",
         "genre": "Pop",
-        "release": "2019"
+        "year": "2019"
     },
     {
-        "title": "Best part",
         "artist": "H.E.R.",
+        "title": "Best part",
         "genre": "Soul",
-        "release": "2020"
+        "year": "2020"
     },
     {
-        "title": "No One",
         "artist": "Alicia Keys",
+        "title": "No One",
         "genre": "R&B",
-        "release": "2003"
+        "year": "2003"
     },
     {
-        "title": "Smoke Break",
         "artist": "Carrie Underwood",
+        "title": "Smoke Break",
         "genre": "R&B",
-        "release": "2019"
+        "year": "2019"
     },
     {
-        "title": "Strange Land",
-        "artist": "88rising, NIKI & Phum Viphurit",
+        "artist": "LAUV",
+        "title": "Feelings",
         "genre": "Pop",
-        "release": "2019"
+        "year": "2018"
     },
     {
-        "title": "Without me",
         "artist": "Halsey",
+        "title": "Without me",
         "genre": "Pop",
-        "release": "2020"
+        "year": "2020"
     },
     {
         "artist": "Coldplay",
