@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JSON set list</title>
+    <title>JSON song list</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
 <body>
+    <h1>JSON song list</h1>
     <form>
-        Enter a genre:
+        Choose a genre:
         <select name="genres" id="genres">
             <option value="Pop">Pop</option>
             <option value="R&B">R&B</option>
@@ -21,30 +22,10 @@
     </form>
     <div id="result"></div>
     <script>
-        var songList = null;
-        var filter = () => {
-            var genre = $("#genres").val();
-            $("#result").empty();
-            $("#result").append("<br /> <b>Filtered Song(s):</b> <br />");
-            songList.forEach((song) => {
-                if (song.genre == genre) {
-                    $("#result").append(
-                        song.artist +
-                        "<br />" +
-                        song.title +
-                        "<br />" +
-                        song.genre +
-                        "<br />" +
-                        song.year +
-                        "<br /> <br />"
-                    );
-                }
-            });
-        };
-        $(document).ready(() => {
-            $.get(
-                "https://victoriaychen.github.io/comp20/jsonList/song.json",
-                (data) => {
+        //Display the data
+        $(document).ready(function() {
+            $.get("https://victoriaychen.github.io/comp20/jsonList/song.json",
+                function(data) {
                     songList = data;
                     $("#result").append(
                         "<br /> <b>Serialize and display:</b> <br />" +
@@ -67,6 +48,28 @@
                 }
             );
         });
+        //Filtered songs
+        var songList = null;
+
+        function filter() {
+            var genre = $("#genres").val();
+            $("#result").empty();
+            $("#result").append("<br /> <b>Filtered Song(s):</b> <br />");
+            songList.forEach((song) => {
+                if (song.genre == genre) {
+                    $("#result").append(
+                        song.artist +
+                        "<br />" +
+                        song.title +
+                        "<br />" +
+                        song.genre +
+                        "<br />" +
+                        song.year +
+                        "<br /> <br />"
+                    );
+                }
+            });
+        };
     </script>
 </body>
 
