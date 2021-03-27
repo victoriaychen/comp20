@@ -6,57 +6,57 @@
     "year": "2003"
   },
   {
-    "artist": "Muse",
-    "title": "United States of Eurasia",
-    "genre": "Alternative",
-    "year": "2009"
-  },
-  {
-    "artist": "My Chemical Romance",
-    "title": "Welcome to the Black Parade",
-    "genre": "Alternative",
-    "year": "2006"
-  },
-  {
-    "artist": "Smashing Pumpkins",
-    "title": "Mayonaise",
-    "genre": "Rock",
-    "year": "1993"
-  },
-  {
-    "artist": "Coldplay",
-    "title": "Fix You",
+    "artist": "Ruel",
+    "title": "Painkiller",
     "genre": "Pop",
-    "year": "2005"
+    "year": "2017"
   },
   {
-    "artist": "Greenday",
-    "title": "Wake Me up When September Ends",
-    "genre": "Alternative",
-    "year": "2004"
+     "artist": "H.E.R.",
+     "title": "Best part",
+     "genre": "Soul",
+     "year": "2020"
   },
   {
-    "artist": "Pink Floyd",
-    "title": "Comfortably Numb",
-    "genre": "Alternative",
-    "year": "1980"
+     "artist": "Alicia Keys",
+     "title": "No One",
+     "genre": "R&B",
+     "year": "2003"
   },
   {
-    "artist": "Oasis",
-    "title": "Don't Look Back in Anger",
-    "genre": "Alternative",
-    "year": "1995"
+    "artist": "Carrie Underwood",
+    "title": "Smoke Break",
+    "genre": "R&B",
+    "year": "2019"
   },
   {
-    "artist": "X Japan",
-    "title": "Endless Rain",
-    "genre": "Rock",
-    "year": "1989"
+     "artist": "LAUV",
+     "title": "Feelings",
+     "genre": "Pop",
+     "year": "2018"
   },
   {
-    "artist": "Guns N' Roses",
-    "title": "Don't Cry",
-    "genre": "Rock",
-    "year": "1991"
+     "artist": "Halsey",
+     "title": "Without me",
+     "genre": "Pop",
+     "year": "2020"
+  },
+  {
+     "artist": "Free National",
+     "title": "Beauty & Essex",
+     "genre": "Soul",
+     "year": "2019"
+  },
+  {
+     "artist": "Coldplay",
+     "title": "Fix You",
+     "genre": "Pop",
+     "year": "2005"
+  },
+  {
+     "artist": "Taylor Swift",
+     "title": "Lover",
+     "genre": "Pop",
+     "year": "2019"
   }
 ]
