@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>JS challenge</title>
+    <script type="text/javascript">
+        function jump() {
+            var left = document.getElementById("left");
+            var right = document.getElementById("right");
+            // Switch left and right text
+            var temp = left.value;
+            left.value = right.value;
+            right.value = temp;
+            // Switch button display
+            var display = document.getElementById("btn");
+            if (display.value == "JUMP >")
+                display.value = "< JUMP";
+            else
+                display.value = "JUMP >";
+        }
+
+        function check(allButton) {
+            // When click checkall
+            checkboxes = document.getElementsByName("boxs");
+            for (var i = 0; i < checkboxes.length; i++) {
+                checkboxes[i].checked = allButton.checked;
+            }
+            // Change label
+            var labelvar = document.getElementById("label");
+            if (allButton.checked) {
+                labelvar.innerHTML = "Uncheck All";
+            } else {
+                labelvar.innerHTML = "Check All";
+            }
+        }
+
+        function toggle() {
+            // Uncheck checkall and change label
+            var allButton = document.getElementById("all");
+            if (allButton.checked) {
+                allButton.checked = false;
+                var labelvar = document.getElementById("label");
+                labelvar.innerHTML = "Check All";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    Jump button challenge: <br><br>
+    <input type="text" id="left">
+    <input type="button" value="JUMP >" onclick="jump()" id="btn">
+    <input type="text" id="right">
+    <br><br> Checkbox challenge: <br><br>
+    <input type="checkbox" name="all" onclick="check(this)" id="all">
+    <label for="all" id="label">Check All</label><br>
+    <input type="checkbox" name="boxs" onclick="toggle()"><br>
+    <input type="checkbox" name="boxs" onclick="toggle()"><br>
+    <input type="checkbox" name="boxs" onclick="toggle()"><br>
+    <input type="checkbox" name="boxs" onclick="toggle()">
+</body>
+
+</html>
